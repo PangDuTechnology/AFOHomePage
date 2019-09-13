@@ -264,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				240BAB211FE1218800D58435 /* AFOHomePage */,
+				245923BF1FE137780094C3E0 /* AFOHomePage.pch */,
 				240BAB201FE1218800D58435 /* Products */,
 				245923A51FE133E40094C3E0 /* Frameworks */,
 			);
@@ -284,8 +285,7 @@
 				245923BA1FE136BA0094C3E0 /* foreign */,
 				245923B91FE136A00094C3E0 /* models */,
 				24DC53AE1FE3A910005B4A4D /* views */,
-				24482100225B375D00DC9207 /* presenter */,
-				245923BF1FE137780094C3E0 /* AFOHomePage.pch */,
+				245537F3232BC0AE005A1A9E /* presenter */,
 			);
 			path = AFOHomePage;
 			sourceTree = "<group>";
@@ -301,14 +301,14 @@
 			path = views;
 			sourceTree = "<group>";
 		};
-		24482100225B375D00DC9207 /* presenter */ = {
+		245537F3232BC0AE005A1A9E /* presenter */ = {
 			isa = PBXGroup;
 			children = (
 				24A0F98D225B84A8006CC24D /* AFOHPPresenterDelegate.h */,
 				24482101225B379200DC9207 /* AFOHPPresenter.h */,
 				24482102225B379200DC9207 /* AFOHPPresenter.m */,
 			);
-			path = presenter;
+			name = presenter;
 			sourceTree = "<group>";
 		};
 		245923911FE131B60094C3E0 /* controllers */ = {
