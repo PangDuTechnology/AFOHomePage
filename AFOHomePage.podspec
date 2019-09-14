@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AFOHomePage"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "main view."
 
   # This description is used to generate tags and improve search results.
@@ -63,10 +63,10 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -127,6 +127,8 @@ Pod::Spec.new do |s|
    s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "AFOViews","AFOGitHub","AFOFoundation","0.0.1","AFORouter" ,"AFOUIKIT"
-
+  s.dependency  "AFOViews"
+  s.dependency  "AFOGitHub"
+  s.dependency  "AFOFoundation"
+  s.dependency  "AFOUIKIT"
 end
