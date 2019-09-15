@@ -6,6 +6,7 @@
 //  Copyright © 2017年 AFO. All rights reserved.
 //
 #import <MediaPlayer/MPMediaItemCollection.h>
+#import <AFOFoundation/AFOFoundation.h>
 #import "AFOHPListModel.h"
 #import "AFOMPMediaQuery.h"
 @interface AFOHPListModel ()

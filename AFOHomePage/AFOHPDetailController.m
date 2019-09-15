@@ -7,6 +7,7 @@
 //
 
 #import "AFOHPDetailController.h"
+#import <AFORouter/AFORouter.h>
 #import "AFODetailPresenterView.h"
 #import "AFODetailPresenterBusiness.h"
 @interface AFOHPDetailController ()<AFORouterManagerDelegate,AFOHPPresenterDelegate>

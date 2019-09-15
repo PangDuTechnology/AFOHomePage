@@ -115,7 +115,6 @@
 		2458D6B520102D9100D2058C /* AFOGitHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFOGitHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		245923BB1FE1371F0094C3E0 /* AFOHPForeign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOHPForeign.h; sourceTree = "<group>"; };
 		245923BC1FE1371F0094C3E0 /* AFOHPForeign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOHPForeign.m; sourceTree = "<group>"; };
-		245923BF1FE137780094C3E0 /* AFOHomePage.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOHomePage.pch; sourceTree = "<group>"; };
 		245923C01FE13E5E0094C3E0 /* AFOHPStaticString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOHPStaticString.h; sourceTree = "<group>"; };
 		24885957201ACB4700623E66 /* AFOFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFOFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A0F98D225B84A8006CC24D /* AFOHPPresenterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOHPPresenterDelegate.h; sourceTree = "<group>"; };
@@ -209,7 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				240BAB211FE1218800D58435 /* AFOHomePage */,
-				245923BF1FE137780094C3E0 /* AFOHomePage.pch */,
 				240BAB201FE1218800D58435 /* Products */,
 				245923A51FE133E40094C3E0 /* Frameworks */,
 			);
@@ -283,12 +281,12 @@
 		24B10991232BCB2100413409 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				24B108F1232BC94000413409 /* AFOHPDetailDataSource.h */,
 				24B108ED232BC94000413409 /* AFOHPDetailDataSource.m */,
+				24B108F2232BC94000413409 /* AFOHPDetailDelegate.h */,
 				24B108EE232BC94000413409 /* AFOHPDetailDelegate.m */,
 				24B108EF232BC94000413409 /* AFOHPDetailModel.h */,
 				24B108F0232BC94000413409 /* AFOHPDetailModel.m */,
-				24B108F1232BC94000413409 /* AFOHPDetailDataSource.h */,
-				24B108F2232BC94000413409 /* AFOHPDetailDelegate.h */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -296,10 +294,10 @@
 		24B10992232BCB4400413409 /* presenters */ = {
 			isa = PBXGroup;
 			children = (
+				24B108F7232BC94000413409 /* AFODetailPresenterView.h */,
 				24B108F4232BC94000413409 /* AFODetailPresenterView.m */,
 				24B108F5232BC94000413409 /* AFODetailPresenterBusiness.h */,
 				24B108F6232BC94000413409 /* AFODetailPresenterBusiness.m */,
-				24B108F7232BC94000413409 /* AFODetailPresenterView.h */,
 			);
 			name = presenters;
 			sourceTree = "<group>";
@@ -308,9 +306,9 @@
 			isa = PBXGroup;
 			children = (
 				24B108F9232BC94000413409 /* AFOHPDetailCell.h */,
-				24B108FA232BC94000413409 /* AFOHPDetailController.m */,
 				24B108FB232BC94000413409 /* AFOHPDetailCell.m */,
 				24B108FC232BC94000413409 /* AFOHPDetailController.h */,
+				24B108FA232BC94000413409 /* AFOHPDetailController.m */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -328,11 +326,11 @@
 		24B10995232BCBC200413409 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				24B10903232BC94000413409 /* AFOHPListDelegate.h */,
 				24B108FF232BC94000413409 /* AFOHPListDelegate.m */,
 				24B10900232BC94000413409 /* AFOHPListDataSource.h */,
-				24B10901232BC94000413409 /* AFOHPListModel.h */,
 				24B10902232BC94000413409 /* AFOHPListDataSource.m */,
-				24B10903232BC94000413409 /* AFOHPListDelegate.h */,
+				24B10901232BC94000413409 /* AFOHPListModel.h */,
 				24B10904232BC94000413409 /* AFOHPListModel.m */,
 			);
 			name = models;
@@ -342,9 +340,9 @@
 			isa = PBXGroup;
 			children = (
 				24B10906232BC94000413409 /* AFOListPresenterBusiness.h */,
-				24B10907232BC94000413409 /* AFOListPresenterView.m */,
 				24B10908232BC94000413409 /* AFOListPresenterBusiness.m */,
 				24B10909232BC94000413409 /* AFOListPresenterView.h */,
+				24B10907232BC94000413409 /* AFOListPresenterView.m */,
 			);
 			name = presenters;
 			sourceTree = "<group>";
@@ -353,8 +351,8 @@
 			isa = PBXGroup;
 			children = (
 				24B1090B232BC94000413409 /* AFOHPListController.h */,
-				24B1090C232BC94000413409 /* AFOHPListCell.h */,
 				24B1090D232BC94000413409 /* AFOHPListController.m */,
+				24B1090C232BC94000413409 /* AFOHPListCell.h */,
 				24B1090E232BC94000413409 /* AFOHPListCell.m */,
 			);
 			name = views;
@@ -384,10 +382,10 @@
 		24B1099A232BCCA900413409 /* presenters */ = {
 			isa = PBXGroup;
 			children = (
-				24B1091A232BC94000413409 /* AFOHPPlayPresenterBusiness.h */,
-				24B10918232BC94000413409 /* AFOHPPlayPresenterBusiness.m */,
 				24B10919232BC94000413409 /* AFOHPPlayPresenterBusinessDelegate.h */,
 				24B1091C232BC94000413409 /* AFOHPPlayPresenterViewDelegate.h */,
+				24B1091A232BC94000413409 /* AFOHPPlayPresenterBusiness.h */,
+				24B10918232BC94000413409 /* AFOHPPlayPresenterBusiness.m */,
 				24B1091D232BC94000413409 /* AFOHPPlayPresenterView.h */,
 				24B1091E232BC94000413409 /* AFOHPPlayPresenterView.m */,
 			);
@@ -400,9 +398,9 @@
 				24B10920232BC94000413409 /* AFOHPVedioController.h */,
 				24B10921232BC94000413409 /* AFOHPVedioController.m */,
 				24B10923232BC94000413409 /* AFOHPPlayerView.h */,
-				24B10924232BC94000413409 /* AFOHPPlayerBaseView.m */,
 				24B10925232BC94000413409 /* AFOHPPlayerView.m */,
 				24B10926232BC94000413409 /* AFOHPPlayerBaseView.h */,
+				24B10924232BC94000413409 /* AFOHPPlayerBaseView.m */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -410,13 +408,13 @@
 		24B1099C232BCDF500413409 /* main */ = {
 			isa = PBXGroup;
 			children = (
-				24B1092A232BC94000413409 /* AFOMainPresenterView.m */,
 				24B1092B232BC94000413409 /* AFOMainPresenterView.h */,
+				24B1092A232BC94000413409 /* AFOMainPresenterView.m */,
 				24B1092D232BC94000413409 /* AFOHPMainController.h */,
 				24B10945232BC94000413409 /* AFOHPMainController.m */,
+				24B10932232BC94000413409 /* AFOCardPresenterBusiness.h */,
 				24B10930232BC94000413409 /* AFOCardPresenterBusiness.m */,
 				24B10931232BC94000413409 /* AFOCardPresenterView.h */,
-				24B10932232BC94000413409 /* AFOCardPresenterBusiness.h */,
 				24B10933232BC94000413409 /* AFOCardPresenterView.m */,
 				24B1099E232BCE6500413409 /* views */,
 				24B1099D232BCE3E00413409 /* models */,
@@ -427,12 +425,12 @@
 		24B1099D232BCE3E00413409 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				24B10938232BC94000413409 /* AFOCardStackingModel.h */,
 				24B10935232BC94000413409 /* AFOCardStackingModel.m */,
 				24B10936232BC94000413409 /* AFOCardStackCollectionDataSource.h */,
-				24B10937232BC94000413409 /* AFOCardStackCollectionDelegate.m */,
-				24B10938232BC94000413409 /* AFOCardStackingModel.h */,
 				24B10939232BC94000413409 /* AFOCardStackCollectionDataSource.m */,
 				24B1093A232BC94000413409 /* AFOCardStackCollectionDelegate.h */,
+				24B10937232BC94000413409 /* AFOCardStackCollectionDelegate.m */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -452,10 +450,10 @@
 		24B1099F232BCE8000413409 /* layout */ = {
 			isa = PBXGroup;
 			children = (
-				24B1093E232BC94000413409 /* AFOCardStackDefaultLayout.m */,
-				24B1093F232BC94000413409 /* AFOCardStackSelectedLayout.m */,
 				24B10940232BC94000413409 /* AFOCardStackDefaultLayout.h */,
+				24B1093E232BC94000413409 /* AFOCardStackDefaultLayout.m */,
 				24B10941232BC94000413409 /* AFOCardStackSelectedLayout.h */,
+				24B1093F232BC94000413409 /* AFOCardStackSelectedLayout.m */,
 			);
 			name = layout;
 			sourceTree = "<group>";
@@ -760,7 +758,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_PREFIX_HEADER = "$(SRCROOT)/AFOHomePage/AFOHomePage.pch";
+				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -787,7 +785,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_PREFIX_HEADER = "$(SRCROOT)/AFOHomePage/AFOHomePage.pch";
+				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

@@ -7,6 +7,7 @@
 //
 
 #import "AFODetailPresenterBusiness.h"
+#import <AFOFoundation/AFOFoundation.h>
 #import "AFOHPDetailModel.h"
 #import "AFOHPDetailDelegate.h"
 #import "AFOHPDetailDataSource.h"
