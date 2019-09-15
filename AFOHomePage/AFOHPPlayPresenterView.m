@@ -7,6 +7,7 @@
 //
 
 #import "AFOHPPlayPresenterView.h"
+#import<AFOFoundation/AFOFoundation.h>
 #import <AFOViews/AFOViews.h>
 #import "AFOHPPlayerView.h"
 @interface AFOHPPlayPresenterView ()<AFOHPAVPlayerViewDelegate>
