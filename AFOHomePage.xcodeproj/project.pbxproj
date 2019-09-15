@@ -441,9 +441,9 @@
 			isa = PBXGroup;
 			children = (
 				24B1093C232BC94000413409 /* AFOCardStackCollectionCell.h */,
+				24B10944232BC94000413409 /* AFOCardStackingController.h */,
 				24B10942232BC94000413409 /* AFOCardStackingController.m */,
 				24B10943232BC94000413409 /* AFOCardStackCollectionCell.m */,
-				24B10944232BC94000413409 /* AFOCardStackingController.h */,
 				24B1099F232BCE8000413409 /* layout */,
 			);
 			name = views;

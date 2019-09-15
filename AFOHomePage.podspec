@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AFOHomePage"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "main view."
 
   # This description is used to generate tags and improve search results.
@@ -130,5 +130,5 @@ Pod::Spec.new do |s|
   s.dependency  "AFOViews"
   s.dependency  "AFOGitHub"
   s.dependency  "AFOFoundation"
-  s.dependency  "AFOUIKIT"
+  s.dependency  "AFORouter"
 end
