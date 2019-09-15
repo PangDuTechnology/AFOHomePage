@@ -8,6 +8,7 @@
 
 #import "AFODetailPresenterBusiness.h"
 #import <AFOFoundation/AFOFoundation.h>
+#import <AFOGitHub/AFOGitHub.h>
 #import "AFOHPDetailModel.h"
 #import "AFOHPDetailDelegate.h"
 #import "AFOHPDetailDataSource.h"
