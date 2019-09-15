@@ -7,6 +7,7 @@
 //
 
 #import "AFOHPPlayerView.h"
+#import <AFOGitHub/AFOGitHub.h>
 #import <AFOFoundation/AFOFoundation.h>
 @interface AFOHPPlayerView ()<AFOHPAVPlayerViewDelegate>
 @property (nonatomic, assign, readwrite) CGSize          imageSize;
