@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface AFOHPListDataSource : NSObject<UITableViewDataSource>
 - (void)settingDataArray:(NSArray *)array index:(NSInteger)index;
 @end

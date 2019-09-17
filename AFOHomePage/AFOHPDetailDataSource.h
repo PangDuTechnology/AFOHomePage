@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface AFOHPDetailDataSource : NSObject<UITableViewDataSource>
 - (void)settingDataArray:(NSArray *)array type:(id)type;
 @end

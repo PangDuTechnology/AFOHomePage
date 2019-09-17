@@ -6,8 +6,8 @@
 //  Copyright © 2017年 AFO. All rights reserved.
 //
 
-#import <AFOUIKit/AFOUIKit.h>
+#import <UIKit/UIKit.h>
 
-@interface AFOHPNavigationController : AFONavigationController
+@interface AFOHPNavigationController : UINavigationController
 
 @end

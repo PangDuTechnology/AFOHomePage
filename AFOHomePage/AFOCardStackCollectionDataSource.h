@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface AFOCardStackCollectionDataSource : NSObject<UICollectionViewDataSource>
 @property (nonatomic, assign) NSInteger cellCount;
 @end

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		24033CAF1FE906570001DD63 /* AFORouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24033CB01FE906570001DD63 /* AFORouter.framework */; };
-		24033CB21FE9066A0001DD63 /* AFORouter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24033CB01FE906570001DD63 /* AFORouter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		240BAB241FE1218800D58435 /* AFOHomePage.h in Headers */ = {isa = PBXBuildFile; fileRef = 240BAB221FE1218800D58435 /* AFOHomePage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		243A8D2F1FF0DE94004BA1CE /* AFOMPMediaQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 243A8D2D1FF0DE94004BA1CE /* AFOMPMediaQuery.h */; };
 		243A8D301FF0DE94004BA1CE /* AFOMPMediaQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A8D2E1FF0DE94004BA1CE /* AFOMPMediaQuery.m */; };
@@ -89,6 +88,7 @@
 		24B1098A232BC94000413409 /* AFOHPMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B10945232BC94000413409 /* AFOHPMainController.m */; };
 		24B1098B232BC94000413409 /* AFOHPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B10946232BC94000413409 /* AFOHPNavigationController.m */; };
 		24E9B142201F507300DE5673 /* AFOViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E9B143201F507300DE5673 /* AFOViews.framework */; };
+		9F86CDCDA00D7F7694A00454 /* libPods-AFOHomePage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB54A6C99FA541D6CBC65201 /* libPods-AFOHomePage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -98,13 +98,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				24033CB21FE9066A0001DD63 /* AFORouter.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21A28A963C366AB6DC790F23 /* Pods-AFOHomePage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOHomePage.debug.xcconfig"; path = "Target Support Files/Pods-AFOHomePage/Pods-AFOHomePage.debug.xcconfig"; sourceTree = "<group>"; };
 		24033CB01FE906570001DD63 /* AFORouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFORouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		240BAB1F1FE1218800D58435 /* AFOHomePage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFOHomePage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		240BAB221FE1218800D58435 /* AFOHomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOHomePage.h; sourceTree = "<group>"; };
@@ -187,6 +187,8 @@
 		24B10945232BC94000413409 /* AFOHPMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOHPMainController.m; sourceTree = "<group>"; };
 		24B10946232BC94000413409 /* AFOHPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOHPNavigationController.m; sourceTree = "<group>"; };
 		24E9B143201F507300DE5673 /* AFOViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFOViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B73713A8988F34B99F1B37D /* Pods-AFOHomePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOHomePage.release.xcconfig"; path = "Target Support Files/Pods-AFOHomePage/Pods-AFOHomePage.release.xcconfig"; sourceTree = "<group>"; };
+		DB54A6C99FA541D6CBC65201 /* libPods-AFOHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFOHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 				24885956201ACB4700623E66 /* AFOFoundation.framework in Frameworks */,
 				2458D6B420102D9100D2058C /* AFOGitHub.framework in Frameworks */,
 				24033CAF1FE906570001DD63 /* AFORouter.framework in Frameworks */,
+				9F86CDCDA00D7F7694A00454 /* libPods-AFOHomePage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +213,7 @@
 				240BAB211FE1218800D58435 /* AFOHomePage */,
 				240BAB201FE1218800D58435 /* Products */,
 				245923A51FE133E40094C3E0 /* Frameworks */,
+				2C5F29CDEEED71D10D0935BA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,6 +255,7 @@
 				24885957201ACB4700623E66 /* AFOFoundation.framework */,
 				2458D6B520102D9100D2058C /* AFOGitHub.framework */,
 				24033CB01FE906570001DD63 /* AFORouter.framework */,
+				DB54A6C99FA541D6CBC65201 /* libPods-AFOHomePage.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -468,6 +473,15 @@
 			name = models;
 			sourceTree = "<group>";
 		};
+		2C5F29CDEEED71D10D0935BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21A28A963C366AB6DC790F23 /* Pods-AFOHomePage.debug.xcconfig */,
+				6B73713A8988F34B99F1B37D /* Pods-AFOHomePage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -526,6 +540,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 240BAB271FE1218800D58435 /* Build configuration list for PBXNativeTarget "AFOHomePage" */;
 			buildPhases = (
+				A1DFF66581A396817D476E57 /* [CP] Check Pods Manifest.lock */,
 				240BAB1A1FE1218800D58435 /* Sources */,
 				240BAB1B1FE1218800D58435 /* Frameworks */,
 				240BAB1C1FE1218800D58435 /* Headers */,
@@ -583,6 +598,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1DFF66581A396817D476E57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFOHomePage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		240BAB1A1FE1218800D58435 /* Sources */ = {
@@ -747,6 +787,7 @@
 		};
 		240BAB281FE1218800D58435 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A28A963C366AB6DC790F23 /* Pods-AFOHomePage.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -764,7 +805,11 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.youku.AFOHomePage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -774,6 +819,7 @@
 		};
 		240BAB291FE1218800D58435 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B73713A8988F34B99F1B37D /* Pods-AFOHomePage.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -791,7 +837,11 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.youku.AFOHomePage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

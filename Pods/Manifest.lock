@@ -1,0 +1,28 @@
+PODS:
+  - AFOFoundation (1.0.6)
+  - AFOGitHub (0.0.7)
+  - AFORouter (0.0.4)
+  - AFOViews (0.0.2)
+
+DEPENDENCIES:
+  - AFOFoundation
+  - AFOGitHub
+  - AFORouter
+  - AFOViews
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFOFoundation
+    - AFOGitHub
+    - AFORouter
+    - AFOViews
+
+SPEC CHECKSUMS:
+  AFOFoundation: a5792ce9496c1665ae08918c1f9bb691ece3b291
+  AFOGitHub: 72827902cb9b9409d35877482a7fa8b64e252e42
+  AFORouter: dc40925d83908af499af28b9c988efb56ea28f89
+  AFOViews: e163b3141ed826d28d47c2a47cdbc51d0c399a54
+
+PODFILE CHECKSUM: a473a60c085f9c760e0dc8249565105f4379e0bd
+
+COCOAPODS: 1.7.5
