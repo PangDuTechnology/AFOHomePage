@@ -88,6 +88,7 @@
 		24B1098A232BC94000413409 /* AFOHPMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B10945232BC94000413409 /* AFOHPMainController.m */; };
 		24B1098B232BC94000413409 /* AFOHPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B10946232BC94000413409 /* AFOHPNavigationController.m */; };
 		24E9B142201F507300DE5673 /* AFOViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E9B143201F507300DE5673 /* AFOViews.framework */; };
+		724DA8F0233A50D6001685B5 /* AFOHomePage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 724DA8EF233A50D6001685B5 /* AFOHomePage.bundle */; };
 		9F86CDCDA00D7F7694A00454 /* libPods-AFOHomePage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB54A6C99FA541D6CBC65201 /* libPods-AFOHomePage.a */; };
 /* End PBXBuildFile section */
 
@@ -188,6 +189,7 @@
 		24B10946232BC94000413409 /* AFOHPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOHPNavigationController.m; sourceTree = "<group>"; };
 		24E9B143201F507300DE5673 /* AFOViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFOViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B73713A8988F34B99F1B37D /* Pods-AFOHomePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOHomePage.release.xcconfig"; path = "Target Support Files/Pods-AFOHomePage/Pods-AFOHomePage.release.xcconfig"; sourceTree = "<group>"; };
+		724DA8EF233A50D6001685B5 /* AFOHomePage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AFOHomePage.bundle; path = AFOHomePage/AFOHomePage.bundle; sourceTree = SOURCE_ROOT; };
 		DB54A6C99FA541D6CBC65201 /* libPods-AFOHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFOHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -234,6 +236,7 @@
 				24F84B04232BC79D00BA824C /* models */,
 				24B1098F232BCA5300413409 /* views */,
 				245537F3232BC0AE005A1A9E /* presenter */,
+				724DA8EF233A50D6001685B5 /* AFOHomePage.bundle */,
 			);
 			path = AFOHomePage;
 			sourceTree = "<group>";
@@ -594,6 +597,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				724DA8F0233A50D6001685B5 /* AFOHomePage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
