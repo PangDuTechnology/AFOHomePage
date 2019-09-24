@@ -232,21 +232,11 @@
 				245923BB1FE1371F0094C3E0 /* AFOHPForeign.h */,
 				245923BC1FE1371F0094C3E0 /* AFOHPForeign.m */,
 				724DA8F3233A5433001685B5 /* models */,
-				24B1098F232BCA5300413409 /* views */,
-				245537F3232BC0AE005A1A9E /* presenter */,
+				724DA8F4233A5689001685B5 /* views */,
+				724DA905233A5A85001685B5 /* presenter */,
 				724DA8EF233A50D6001685B5 /* AFOHomePage.bundle */,
 			);
 			path = AFOHomePage;
-			sourceTree = "<group>";
-		};
-		245537F3232BC0AE005A1A9E /* presenter */ = {
-			isa = PBXGroup;
-			children = (
-				24A0F98D225B84A8006CC24D /* AFOHPPresenterDelegate.h */,
-				24482101225B379200DC9207 /* AFOHPPresenter.h */,
-				24482102225B379200DC9207 /* AFOHPPresenter.m */,
-			);
-			name = presenter;
 			sourceTree = "<group>";
 		};
 		245923A51FE133E40094C3E0 /* Frameworks */ = {
@@ -259,209 +249,6 @@
 				DB54A6C99FA541D6CBC65201 /* libPods-AFOHomePage.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		24B1098F232BCA5300413409 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				24B108E9232BC94000413409 /* AFOHPNavigationController.h */,
-				24B10946232BC94000413409 /* AFOHPNavigationController.m */,
-				24B1099C232BCDF500413409 /* main */,
-				24B10998232BCC3B00413409 /* play */,
-				24B10994232BCBB000413409 /* list */,
-				24B10990232BCB0A00413409 /* detail */,
-			);
-			name = views;
-			sourceTree = "<group>";
-		};
-		24B10990232BCB0A00413409 /* detail */ = {
-			isa = PBXGroup;
-			children = (
-				24B10991232BCB2100413409 /* models */,
-				24B10993232BCB6300413409 /* views */,
-				24B10992232BCB4400413409 /* presenters */,
-			);
-			name = detail;
-			sourceTree = "<group>";
-		};
-		24B10991232BCB2100413409 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				24B108F1232BC94000413409 /* AFOHPDetailDataSource.h */,
-				24B108ED232BC94000413409 /* AFOHPDetailDataSource.m */,
-				24B108F2232BC94000413409 /* AFOHPDetailDelegate.h */,
-				24B108EE232BC94000413409 /* AFOHPDetailDelegate.m */,
-				24B108EF232BC94000413409 /* AFOHPDetailModel.h */,
-				24B108F0232BC94000413409 /* AFOHPDetailModel.m */,
-			);
-			name = models;
-			sourceTree = "<group>";
-		};
-		24B10992232BCB4400413409 /* presenters */ = {
-			isa = PBXGroup;
-			children = (
-				24B108F7232BC94000413409 /* AFODetailPresenterView.h */,
-				24B108F4232BC94000413409 /* AFODetailPresenterView.m */,
-				24B108F5232BC94000413409 /* AFODetailPresenterBusiness.h */,
-				24B108F6232BC94000413409 /* AFODetailPresenterBusiness.m */,
-			);
-			name = presenters;
-			sourceTree = "<group>";
-		};
-		24B10993232BCB6300413409 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				24B108F9232BC94000413409 /* AFOHPDetailCell.h */,
-				24B108FB232BC94000413409 /* AFOHPDetailCell.m */,
-				24B108FC232BC94000413409 /* AFOHPDetailController.h */,
-				24B108FA232BC94000413409 /* AFOHPDetailController.m */,
-			);
-			name = views;
-			sourceTree = "<group>";
-		};
-		24B10994232BCBB000413409 /* list */ = {
-			isa = PBXGroup;
-			children = (
-				24B10995232BCBC200413409 /* models */,
-				24B10997232BCC0100413409 /* views */,
-				24B10996232BCBE300413409 /* presenters */,
-			);
-			name = list;
-			sourceTree = "<group>";
-		};
-		24B10995232BCBC200413409 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				24B10903232BC94000413409 /* AFOHPListDelegate.h */,
-				24B108FF232BC94000413409 /* AFOHPListDelegate.m */,
-				24B10900232BC94000413409 /* AFOHPListDataSource.h */,
-				24B10902232BC94000413409 /* AFOHPListDataSource.m */,
-				24B10901232BC94000413409 /* AFOHPListModel.h */,
-				24B10904232BC94000413409 /* AFOHPListModel.m */,
-			);
-			name = models;
-			sourceTree = "<group>";
-		};
-		24B10996232BCBE300413409 /* presenters */ = {
-			isa = PBXGroup;
-			children = (
-				24B10906232BC94000413409 /* AFOListPresenterBusiness.h */,
-				24B10908232BC94000413409 /* AFOListPresenterBusiness.m */,
-				24B10909232BC94000413409 /* AFOListPresenterView.h */,
-				24B10907232BC94000413409 /* AFOListPresenterView.m */,
-			);
-			name = presenters;
-			sourceTree = "<group>";
-		};
-		24B10997232BCC0100413409 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				24B1090B232BC94000413409 /* AFOHPListController.h */,
-				24B1090D232BC94000413409 /* AFOHPListController.m */,
-				24B1090C232BC94000413409 /* AFOHPListCell.h */,
-				24B1090E232BC94000413409 /* AFOHPListCell.m */,
-			);
-			name = views;
-			sourceTree = "<group>";
-		};
-		24B10998232BCC3B00413409 /* play */ = {
-			isa = PBXGroup;
-			children = (
-				24B1099B232BCDA900413409 /* views */,
-				24B1099A232BCCA900413409 /* presenters */,
-				24B10999232BCC4E00413409 /* models */,
-			);
-			name = play;
-			sourceTree = "<group>";
-		};
-		24B10999232BCC4E00413409 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				24B10913232BC94000413409 /* AFOHPAVPlayer.h */,
-				24B10912232BC94000413409 /* AFOHPAVPlayer.m */,
-				24B10911232BC94000413409 /* AFOHPAVPlayer+ChooseSong.h */,
-				24B10914232BC94000413409 /* AFOHPAVPlayer+ChooseSong.m */,
-			);
-			name = models;
-			sourceTree = "<group>";
-		};
-		24B1099A232BCCA900413409 /* presenters */ = {
-			isa = PBXGroup;
-			children = (
-				24B10919232BC94000413409 /* AFOHPPlayPresenterBusinessDelegate.h */,
-				24B1091C232BC94000413409 /* AFOHPPlayPresenterViewDelegate.h */,
-				24B1091A232BC94000413409 /* AFOHPPlayPresenterBusiness.h */,
-				24B10918232BC94000413409 /* AFOHPPlayPresenterBusiness.m */,
-				24B1091D232BC94000413409 /* AFOHPPlayPresenterView.h */,
-				24B1091E232BC94000413409 /* AFOHPPlayPresenterView.m */,
-			);
-			name = presenters;
-			sourceTree = "<group>";
-		};
-		24B1099B232BCDA900413409 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				24B10920232BC94000413409 /* AFOHPVedioController.h */,
-				24B10921232BC94000413409 /* AFOHPVedioController.m */,
-				24B10923232BC94000413409 /* AFOHPPlayerView.h */,
-				24B10925232BC94000413409 /* AFOHPPlayerView.m */,
-				24B10926232BC94000413409 /* AFOHPPlayerBaseView.h */,
-				24B10924232BC94000413409 /* AFOHPPlayerBaseView.m */,
-			);
-			name = views;
-			sourceTree = "<group>";
-		};
-		24B1099C232BCDF500413409 /* main */ = {
-			isa = PBXGroup;
-			children = (
-				24B1092B232BC94000413409 /* AFOMainPresenterView.h */,
-				24B1092A232BC94000413409 /* AFOMainPresenterView.m */,
-				24B1092D232BC94000413409 /* AFOHPMainController.h */,
-				24B10945232BC94000413409 /* AFOHPMainController.m */,
-				24B10932232BC94000413409 /* AFOCardPresenterBusiness.h */,
-				24B10930232BC94000413409 /* AFOCardPresenterBusiness.m */,
-				24B10931232BC94000413409 /* AFOCardPresenterView.h */,
-				24B10933232BC94000413409 /* AFOCardPresenterView.m */,
-				24B1099E232BCE6500413409 /* views */,
-				24B1099D232BCE3E00413409 /* models */,
-			);
-			name = main;
-			sourceTree = "<group>";
-		};
-		24B1099D232BCE3E00413409 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				24B10938232BC94000413409 /* AFOCardStackingModel.h */,
-				24B10935232BC94000413409 /* AFOCardStackingModel.m */,
-				24B10936232BC94000413409 /* AFOCardStackCollectionDataSource.h */,
-				24B10939232BC94000413409 /* AFOCardStackCollectionDataSource.m */,
-				24B1093A232BC94000413409 /* AFOCardStackCollectionDelegate.h */,
-				24B10937232BC94000413409 /* AFOCardStackCollectionDelegate.m */,
-			);
-			name = models;
-			sourceTree = "<group>";
-		};
-		24B1099E232BCE6500413409 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				24B1093C232BC94000413409 /* AFOCardStackCollectionCell.h */,
-				24B10943232BC94000413409 /* AFOCardStackCollectionCell.m */,
-				24B10944232BC94000413409 /* AFOCardStackingController.h */,
-				24B10942232BC94000413409 /* AFOCardStackingController.m */,
-				24B1099F232BCE8000413409 /* layout */,
-			);
-			name = views;
-			sourceTree = "<group>";
-		};
-		24B1099F232BCE8000413409 /* layout */ = {
-			isa = PBXGroup;
-			children = (
-				24B10940232BC94000413409 /* AFOCardStackDefaultLayout.h */,
-				24B1093E232BC94000413409 /* AFOCardStackDefaultLayout.m */,
-				24B10941232BC94000413409 /* AFOCardStackSelectedLayout.h */,
-				24B1093F232BC94000413409 /* AFOCardStackSelectedLayout.m */,
-			);
-			name = layout;
 			sourceTree = "<group>";
 		};
 		2C5F29CDEEED71D10D0935BA /* Pods */ = {
@@ -480,6 +267,211 @@
 				243A8D2E1FF0DE94004BA1CE /* AFOMPMediaQuery.m */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		724DA8F4233A5689001685B5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				24B108E9232BC94000413409 /* AFOHPNavigationController.h */,
+				24B10946232BC94000413409 /* AFOHPNavigationController.m */,
+				724DA8F6233A56B7001685B5 /* main */,
+				724DA8FD233A597A001685B5 /* list */,
+				724DA8F9233A5801001685B5 /* play */,
+				724DA901233A59CB001685B5 /* detail */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		724DA8F6233A56B7001685B5 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				724DA8F7233A56FA001685B5 /* views */,
+				724DA8F8233A573A001685B5 /* models */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		724DA8F7233A56FA001685B5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				24B10931232BC94000413409 /* AFOCardPresenterView.h */,
+				24B10933232BC94000413409 /* AFOCardPresenterView.m */,
+				24B1092B232BC94000413409 /* AFOMainPresenterView.h */,
+				24B1092A232BC94000413409 /* AFOMainPresenterView.m */,
+				24B1092D232BC94000413409 /* AFOHPMainController.h */,
+				24B10945232BC94000413409 /* AFOHPMainController.m */,
+				24B1093C232BC94000413409 /* AFOCardStackCollectionCell.h */,
+				24B10943232BC94000413409 /* AFOCardStackCollectionCell.m */,
+				24B10944232BC94000413409 /* AFOCardStackingController.h */,
+				24B10942232BC94000413409 /* AFOCardStackingController.m */,
+				24B10940232BC94000413409 /* AFOCardStackDefaultLayout.h */,
+				24B1093E232BC94000413409 /* AFOCardStackDefaultLayout.m */,
+				24B10941232BC94000413409 /* AFOCardStackSelectedLayout.h */,
+				24B1093F232BC94000413409 /* AFOCardStackSelectedLayout.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		724DA8F8233A573A001685B5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				24B10938232BC94000413409 /* AFOCardStackingModel.h */,
+				24B10935232BC94000413409 /* AFOCardStackingModel.m */,
+				24B10936232BC94000413409 /* AFOCardStackCollectionDataSource.h */,
+				24B10939232BC94000413409 /* AFOCardStackCollectionDataSource.m */,
+				24B1093A232BC94000413409 /* AFOCardStackCollectionDelegate.h */,
+				24B10937232BC94000413409 /* AFOCardStackCollectionDelegate.m */,
+				24B10932232BC94000413409 /* AFOCardPresenterBusiness.h */,
+				24B10930232BC94000413409 /* AFOCardPresenterBusiness.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		724DA8F9233A5801001685B5 /* play */ = {
+			isa = PBXGroup;
+			children = (
+				724DA8FB233A5846001685B5 /* models */,
+				724DA8FA233A5827001685B5 /* views */,
+				724DA8FC233A5857001685B5 /* presenters */,
+			);
+			path = play;
+			sourceTree = "<group>";
+		};
+		724DA8FA233A5827001685B5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				24B10920232BC94000413409 /* AFOHPVedioController.h */,
+				24B10921232BC94000413409 /* AFOHPVedioController.m */,
+				24B10923232BC94000413409 /* AFOHPPlayerView.h */,
+				24B10925232BC94000413409 /* AFOHPPlayerView.m */,
+				24B10926232BC94000413409 /* AFOHPPlayerBaseView.h */,
+				24B10924232BC94000413409 /* AFOHPPlayerBaseView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		724DA8FB233A5846001685B5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				24B10913232BC94000413409 /* AFOHPAVPlayer.h */,
+				24B10912232BC94000413409 /* AFOHPAVPlayer.m */,
+				24B10911232BC94000413409 /* AFOHPAVPlayer+ChooseSong.h */,
+				24B10914232BC94000413409 /* AFOHPAVPlayer+ChooseSong.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		724DA8FC233A5857001685B5 /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				24B10919232BC94000413409 /* AFOHPPlayPresenterBusinessDelegate.h */,
+				24B1091C232BC94000413409 /* AFOHPPlayPresenterViewDelegate.h */,
+				24B1091A232BC94000413409 /* AFOHPPlayPresenterBusiness.h */,
+				24B10918232BC94000413409 /* AFOHPPlayPresenterBusiness.m */,
+				24B1091D232BC94000413409 /* AFOHPPlayPresenterView.h */,
+				24B1091E232BC94000413409 /* AFOHPPlayPresenterView.m */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		724DA8FD233A597A001685B5 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				724DA8FE233A5983001685B5 /* models */,
+				724DA8FF233A5992001685B5 /* views */,
+				724DA900233A59A7001685B5 /* presenters */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		724DA8FE233A5983001685B5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				24B10903232BC94000413409 /* AFOHPListDelegate.h */,
+				24B108FF232BC94000413409 /* AFOHPListDelegate.m */,
+				24B10900232BC94000413409 /* AFOHPListDataSource.h */,
+				24B10902232BC94000413409 /* AFOHPListDataSource.m */,
+				24B10901232BC94000413409 /* AFOHPListModel.h */,
+				24B10904232BC94000413409 /* AFOHPListModel.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		724DA8FF233A5992001685B5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				24B1090B232BC94000413409 /* AFOHPListController.h */,
+				24B1090D232BC94000413409 /* AFOHPListController.m */,
+				24B1090C232BC94000413409 /* AFOHPListCell.h */,
+				24B1090E232BC94000413409 /* AFOHPListCell.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		724DA900233A59A7001685B5 /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				24B10906232BC94000413409 /* AFOListPresenterBusiness.h */,
+				24B10908232BC94000413409 /* AFOListPresenterBusiness.m */,
+				24B10909232BC94000413409 /* AFOListPresenterView.h */,
+				24B10907232BC94000413409 /* AFOListPresenterView.m */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		724DA901233A59CB001685B5 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				724DA902233A59D5001685B5 /* models */,
+				724DA903233A59E2001685B5 /* views */,
+				724DA904233A5A2D001685B5 /* presenters */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		724DA902233A59D5001685B5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				24B108F1232BC94000413409 /* AFOHPDetailDataSource.h */,
+				24B108ED232BC94000413409 /* AFOHPDetailDataSource.m */,
+				24B108F2232BC94000413409 /* AFOHPDetailDelegate.h */,
+				24B108EE232BC94000413409 /* AFOHPDetailDelegate.m */,
+				24B108EF232BC94000413409 /* AFOHPDetailModel.h */,
+				24B108F0232BC94000413409 /* AFOHPDetailModel.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		724DA903233A59E2001685B5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				24B108F9232BC94000413409 /* AFOHPDetailCell.h */,
+				24B108FB232BC94000413409 /* AFOHPDetailCell.m */,
+				24B108FC232BC94000413409 /* AFOHPDetailController.h */,
+				24B108FA232BC94000413409 /* AFOHPDetailController.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		724DA904233A5A2D001685B5 /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				24B108F7232BC94000413409 /* AFODetailPresenterView.h */,
+				24B108F4232BC94000413409 /* AFODetailPresenterView.m */,
+				24B108F5232BC94000413409 /* AFODetailPresenterBusiness.h */,
+				24B108F6232BC94000413409 /* AFODetailPresenterBusiness.m */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		724DA905233A5A85001685B5 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				24A0F98D225B84A8006CC24D /* AFOHPPresenterDelegate.h */,
+				24482101225B379200DC9207 /* AFOHPPresenter.h */,
+				24482102225B379200DC9207 /* AFOHPPresenter.m */,
+			);
+			path = presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
