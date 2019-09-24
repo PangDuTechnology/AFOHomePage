@@ -16,7 +16,6 @@
 		2458D6B420102D9100D2058C /* AFOGitHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2458D6B520102D9100D2058C /* AFOGitHub.framework */; };
 		245923BD1FE1371F0094C3E0 /* AFOHPForeign.h in Headers */ = {isa = PBXBuildFile; fileRef = 245923BB1FE1371F0094C3E0 /* AFOHPForeign.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		245923BE1FE1371F0094C3E0 /* AFOHPForeign.m in Sources */ = {isa = PBXBuildFile; fileRef = 245923BC1FE1371F0094C3E0 /* AFOHPForeign.m */; };
-		245923C11FE13E5E0094C3E0 /* AFOHPStaticString.h in Headers */ = {isa = PBXBuildFile; fileRef = 245923C01FE13E5E0094C3E0 /* AFOHPStaticString.h */; };
 		24885956201ACB4700623E66 /* AFOFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24885957201ACB4700623E66 /* AFOFoundation.framework */; };
 		24A0F98E225B84A8006CC24D /* AFOHPPresenterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A0F98D225B84A8006CC24D /* AFOHPPresenterDelegate.h */; };
 		24B10947232BC94000413409 /* AFOHPNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B108E9232BC94000413409 /* AFOHPNavigationController.h */; };
@@ -116,7 +115,6 @@
 		2458D6B520102D9100D2058C /* AFOGitHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFOGitHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		245923BB1FE1371F0094C3E0 /* AFOHPForeign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOHPForeign.h; sourceTree = "<group>"; };
 		245923BC1FE1371F0094C3E0 /* AFOHPForeign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOHPForeign.m; sourceTree = "<group>"; };
-		245923C01FE13E5E0094C3E0 /* AFOHPStaticString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOHPStaticString.h; sourceTree = "<group>"; };
 		24885957201ACB4700623E66 /* AFOFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFOFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A0F98D225B84A8006CC24D /* AFOHPPresenterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOHPPresenterDelegate.h; sourceTree = "<group>"; };
 		24B108E9232BC94000413409 /* AFOHPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOHPNavigationController.h; sourceTree = "<group>"; };
@@ -233,7 +231,7 @@
 				240BAB221FE1218800D58435 /* AFOHomePage.h */,
 				245923BB1FE1371F0094C3E0 /* AFOHPForeign.h */,
 				245923BC1FE1371F0094C3E0 /* AFOHPForeign.m */,
-				24F84B04232BC79D00BA824C /* models */,
+				724DA8F3233A5433001685B5 /* models */,
 				24B1098F232BCA5300413409 /* views */,
 				245537F3232BC0AE005A1A9E /* presenter */,
 				724DA8EF233A50D6001685B5 /* AFOHomePage.bundle */,
@@ -466,16 +464,6 @@
 			name = layout;
 			sourceTree = "<group>";
 		};
-		24F84B04232BC79D00BA824C /* models */ = {
-			isa = PBXGroup;
-			children = (
-				245923C01FE13E5E0094C3E0 /* AFOHPStaticString.h */,
-				243A8D2D1FF0DE94004BA1CE /* AFOMPMediaQuery.h */,
-				243A8D2E1FF0DE94004BA1CE /* AFOMPMediaQuery.m */,
-			);
-			name = models;
-			sourceTree = "<group>";
-		};
 		2C5F29CDEEED71D10D0935BA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -483,6 +471,15 @@
 				6B73713A8988F34B99F1B37D /* Pods-AFOHomePage.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		724DA8F3233A5433001685B5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				243A8D2D1FF0DE94004BA1CE /* AFOMPMediaQuery.h */,
+				243A8D2E1FF0DE94004BA1CE /* AFOMPMediaQuery.m */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -532,7 +529,6 @@
 				24B10989232BC94000413409 /* AFOCardStackingController.h in Headers */,
 				24B1095F232BC94000413409 /* AFOListPresenterView.h in Headers */,
 				24B10966232BC94000413409 /* AFOHPAVPlayer.h in Headers */,
-				245923C11FE13E5E0094C3E0 /* AFOHPStaticString.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
