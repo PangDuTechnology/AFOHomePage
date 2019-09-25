@@ -87,6 +87,8 @@
 		24B1098A232BC94000413409 /* AFOHPMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B10945232BC94000413409 /* AFOHPMainController.m */; };
 		24B1098B232BC94000413409 /* AFOHPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B10946232BC94000413409 /* AFOHPNavigationController.m */; };
 		24E9B142201F507300DE5673 /* AFOViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E9B143201F507300DE5673 /* AFOViews.framework */; };
+		722B8EE6233B03B8005465C1 /* AFOHPBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 722B8EE4233B03B8005465C1 /* AFOHPBundle.h */; };
+		722B8EE7233B03B8005465C1 /* AFOHPBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 722B8EE5233B03B8005465C1 /* AFOHPBundle.m */; };
 		724DA8F0233A50D6001685B5 /* AFOHomePage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 724DA8EF233A50D6001685B5 /* AFOHomePage.bundle */; };
 		9F86CDCDA00D7F7694A00454 /* libPods-AFOHomePage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB54A6C99FA541D6CBC65201 /* libPods-AFOHomePage.a */; };
 /* End PBXBuildFile section */
@@ -187,6 +189,8 @@
 		24B10946232BC94000413409 /* AFOHPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOHPNavigationController.m; sourceTree = "<group>"; };
 		24E9B143201F507300DE5673 /* AFOViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFOViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B73713A8988F34B99F1B37D /* Pods-AFOHomePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOHomePage.release.xcconfig"; path = "Target Support Files/Pods-AFOHomePage/Pods-AFOHomePage.release.xcconfig"; sourceTree = "<group>"; };
+		722B8EE4233B03B8005465C1 /* AFOHPBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOHPBundle.h; sourceTree = "<group>"; };
+		722B8EE5233B03B8005465C1 /* AFOHPBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOHPBundle.m; sourceTree = "<group>"; };
 		724DA8EF233A50D6001685B5 /* AFOHomePage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AFOHomePage.bundle; path = AFOHomePage/AFOHomePage.bundle; sourceTree = SOURCE_ROOT; };
 		DB54A6C99FA541D6CBC65201 /* libPods-AFOHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFOHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -265,6 +269,8 @@
 			children = (
 				243A8D2D1FF0DE94004BA1CE /* AFOMPMediaQuery.h */,
 				243A8D2E1FF0DE94004BA1CE /* AFOMPMediaQuery.m */,
+				722B8EE4233B03B8005465C1 /* AFOHPBundle.h */,
+				722B8EE5233B03B8005465C1 /* AFOHPBundle.m */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -492,6 +498,7 @@
 				24B10955232BC94000413409 /* AFOHPDetailController.h in Headers */,
 				24B10982232BC94000413409 /* AFOCardStackCollectionCell.h in Headers */,
 				24B10964232BC94000413409 /* AFOHPAVPlayer+ChooseSong.h in Headers */,
+				722B8EE6233B03B8005465C1 /* AFOHPBundle.h in Headers */,
 				24B10986232BC94000413409 /* AFOCardStackSelectedLayout.h in Headers */,
 				24B1096D232BC94000413409 /* AFOHPPlayPresenterView.h in Headers */,
 				24B1095A232BC94000413409 /* AFOHPListDelegate.h in Headers */,
@@ -649,6 +656,7 @@
 				243A8D301FF0DE94004BA1CE /* AFOMPMediaQuery.m in Sources */,
 				24B10972232BC94000413409 /* AFOHPPlayerBaseView.m in Sources */,
 				24B1097E232BC94000413409 /* AFOCardStackCollectionDelegate.m in Sources */,
+				722B8EE7233B03B8005465C1 /* AFOHPBundle.m in Sources */,
 				24B10959232BC94000413409 /* AFOHPListDataSource.m in Sources */,
 				24B10988232BC94000413409 /* AFOCardStackCollectionCell.m in Sources */,
 				24B1094B232BC94000413409 /* AFOHPDetailModel.m in Sources */,

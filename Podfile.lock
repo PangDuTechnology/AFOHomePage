@@ -1,6 +1,36 @@
 PODS:
-  - AFOFoundation (1.0.6)
-  - AFOGitHub (0.0.7)
+  - AFOFoundation (1.0.7):
+    - AFOFoundation/array (= 1.0.7)
+    - AFOFoundation/bundle (= 1.0.7)
+    - AFOFoundation/define (= 1.0.7)
+    - AFOFoundation/dictionary (= 1.0.7)
+    - AFOFoundation/sandbox (= 1.0.7)
+    - AFOFoundation/string (= 1.0.7)
+    - AFOFoundation/weak (= 1.0.7)
+  - AFOFoundation/array (1.0.7)
+  - AFOFoundation/bundle (1.0.7)
+  - AFOFoundation/define (1.0.7)
+  - AFOFoundation/dictionary (1.0.7)
+  - AFOFoundation/sandbox (1.0.7)
+  - AFOFoundation/string (1.0.7)
+  - AFOFoundation/weak (1.0.7)
+  - AFOGitHub (0.0.10):
+    - AFOGitHub/Aspects (= 0.0.10)
+    - AFOGitHub/GCDMulticastDelegate (= 0.0.10)
+    - AFOGitHub/INTUAutoRemoveObserver (= 0.0.10)
+    - AFOGitHub/Masonry (= 0.0.10)
+    - AFOGitHub/SDWebImage (= 0.0.10)
+    - AFOGitHub/UIScrollView (= 0.0.10)
+  - AFOGitHub/Aspects (0.0.10)
+  - AFOGitHub/GCDMulticastDelegate (0.0.10)
+  - AFOGitHub/INTUAutoRemoveObserver (0.0.10)
+  - AFOGitHub/Masonry (0.0.10)
+  - AFOGitHub/SDWebImage (0.0.10):
+    - AFOGitHub/SDWebImage/include (= 0.0.10)
+    - AFOGitHub/SDWebImage/lib (= 0.0.10)
+  - AFOGitHub/SDWebImage/include (0.0.10)
+  - AFOGitHub/SDWebImage/lib (0.0.10)
+  - AFOGitHub/UIScrollView (0.0.10)
   - AFORouter (0.0.4)
   - AFOViews (0.0.2)
 
@@ -18,8 +48,8 @@ SPEC REPOS:
     - AFOViews
 
 SPEC CHECKSUMS:
-  AFOFoundation: a5792ce9496c1665ae08918c1f9bb691ece3b291
-  AFOGitHub: 72827902cb9b9409d35877482a7fa8b64e252e42
+  AFOFoundation: 984bbc3d77ca72b5fa604b879065a12c108567fb
+  AFOGitHub: 9b4aee6e56e6d3215ff93e879575649a01e19af4
   AFORouter: dc40925d83908af499af28b9c988efb56ea28f89
   AFOViews: e163b3141ed826d28d47c2a47cdbc51d0c399a54
 
