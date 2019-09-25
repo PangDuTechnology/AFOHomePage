@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFOHomePage"
-  s.version      = "0.0.16"
+  s.version      = "0.0.17"
   s.summary      = "main view."
 
   # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/PangDuTechnology/AFOHomePage.git", :tag => s.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "AFOHomePage/*.{h,m}"
+  s.source_files  = "AFOHomePage/*.{h,m}","AFOHomePage/AFOHomePage.bundle"
   s.public_header_files = "AFOHomePage/*.h"
 
   s.subspec 'models' do |model|
