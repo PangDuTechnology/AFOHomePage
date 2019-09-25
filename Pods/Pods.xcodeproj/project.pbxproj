@@ -181,7 +181,7 @@
 		30F66072575F7EC86DB2E1CDD29E63D2 /* JLRParsingUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRParsingUtilities.m; path = AFORouter/JLRParsingUtilities.m; sourceTree = "<group>"; };
 		31344745BC71D9284E5FC02AEE624BC5 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = AFOGitHub/Masonry/Masonry.h; sourceTree = "<group>"; };
 		322AA82885557B06E843ADF0ED8C5916 /* NSBundle+AFOCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+AFOCategory.m"; path = "AFOFoundation/bundle/NSBundle+AFOCategory.m"; sourceTree = "<group>"; };
-		32B8FF078B4D455F74FFD37ECBA6680A /* libPods-AFOHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AFOHomePage.a"; path = "libPods-AFOHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B8FF078B4D455F74FFD37ECBA6680A /* libPods-AFOHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFOHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DD4FF833806A74E0F058B2D47D063E /* AFOFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFOFoundation-dummy.m"; sourceTree = "<group>"; };
 		398DD7AAAD56A879422A3DEF5A50A9B8 /* INTUAutoRemoveObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INTUAutoRemoveObserver.m; path = AFOGitHub/INTUAutoRemoveObserver/INTUAutoRemoveObserver.m; sourceTree = "<group>"; };
 		3A6984118A7E07F6B64AFC7BCF973094 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = AFOGitHub/Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
@@ -196,13 +196,13 @@
 		4A1542CD4F81D8212179EF9017323EFA /* AFORouterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFORouterManager.h; path = AFORouter/AFORouterManager.h; sourceTree = "<group>"; };
 		4B6756DDE09113F3FA15D669F8E56026 /* libSDWebImage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = AFOGitHub/SDWebImage/lib/libSDWebImage.a; sourceTree = "<group>"; };
 		4CC289D04E60DE5AB4C30389291ECA61 /* AFOViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOViews.h; path = AFOViews/AFOViews.h; sourceTree = "<group>"; };
-		4EB0959E61EAC889D51F90641FD082AC /* libAFOFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFOFoundation.a; path = libAFOFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB0959E61EAC889D51F90641FD082AC /* libAFOFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFOFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		51563F3264DA459CE4C03512A912FE64 /* SVPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVPullToRefresh.h; path = AFOGitHub/UIScrollView/SVPullToRefresh.h; sourceTree = "<group>"; };
 		5416353C18E7390DAB3FC9A00061FC63 /* GCDMulticastDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDMulticastDelegate.m; path = AFOGitHub/GCDMulticastDelegate/GCDMulticastDelegate.m; sourceTree = "<group>"; };
 		5440002F634E4D8D7B8DB386F058A04B /* JLRRouteResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteResponse.h; path = AFORouter/JLRRouteResponse.h; sourceTree = "<group>"; };
 		55543398EE33112CE88EBED5541E3303 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "AFOGitHub/Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		561AFAFD76EC17AC267705261DE08AD0 /* JLRRouteDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteDefinition.m; path = AFORouter/JLRRouteDefinition.m; sourceTree = "<group>"; };
-		562A169AA4BA10FE6156E2CB62F760B8 /* libAFORouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFORouter.a; path = libAFORouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		562A169AA4BA10FE6156E2CB62F760B8 /* libAFORouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFORouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		590FF35B1AF58D5C4C9D90F6D0A213F4 /* AFORouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFORouter-dummy.m"; sourceTree = "<group>"; };
 		5A114A387953669801EA34DBA8BDB9F1 /* AFOWeakInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOWeakInstance.h; path = AFOFoundation/weak/AFOWeakInstance.h; sourceTree = "<group>"; };
 		5AE95D4A41A5B4E33E5AA3A47A5197F1 /* NSMutableDictionary+AFOAbnormal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+AFOAbnormal.h"; path = "AFOFoundation/dictionary/NSMutableDictionary+AFOAbnormal.h"; sourceTree = "<group>"; };
@@ -235,8 +235,8 @@
 		94DB7371FD2A8C3DB6A4E11185ED0DC6 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "AFOGitHub/SDWebImage/include/UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		9559FCD9EB93F1A5B39A63BCBECDE10A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = AFOGitHub/Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		99A1816F81D7AD0483090159FD896687 /* AFORouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFORouter-prefix.pch"; sourceTree = "<group>"; };
-		9D74159E198798B12AEB9839BA39BEC0 /* libAFOViews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFOViews.a; path = libAFOViews.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D74159E198798B12AEB9839BA39BEC0 /* libAFOViews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFOViews.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A04ECC4D29B51DE8899CD44B8747031B /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "AFOGitHub/Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		A0781EAB49FA7AC49284B57ACDA01B8B /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "AFOGitHub/SDWebImage/include/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		A08EB6563FE200B150D44A0CEB99A8FB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = AFOGitHub/Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
@@ -251,7 +251,7 @@
 		BFB6A135F2FA85799CBA3852795BEC5B /* GCDMulticastDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDMulticastDelegate.h; path = AFOGitHub/GCDMulticastDelegate/GCDMulticastDelegate.h; sourceTree = "<group>"; };
 		C034A33165B83498AC2CF12F22855E19 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "AFOGitHub/SDWebImage/include/UIView+WebCache.h"; sourceTree = "<group>"; };
 		C1640A84E7CF8D0695C1FA677B94E096 /* AFORouterManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFORouterManagerDelegate.h; path = AFORouter/AFORouterManagerDelegate.h; sourceTree = "<group>"; };
-		C178D7E0ED386D3B5510D37B21C3504B /* libAFOGitHub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFOGitHub.a; path = libAFOGitHub.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C178D7E0ED386D3B5510D37B21C3504B /* libAFOGitHub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFOGitHub.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A72FE1880BB107FEB093C8149ED061 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = AFOGitHub/Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		C46FE78182B1AC80705BC6B79EC5228B /* JLRoutes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRoutes.m; path = AFORouter/JLRoutes.m; sourceTree = "<group>"; };
 		C6C2B65EF7A074F51621E31860DD5D6A /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = AFOGitHub/Masonry/MASConstraint.h; sourceTree = "<group>"; };
@@ -381,7 +381,6 @@
 				CF746F0555EB5A201D1F2316E9AF7ECC /* JLRRouteResponse.m */,
 				6105D1C4EC2B36E8E69B8827E3507387 /* Support Files */,
 			);
-			name = AFORouter;
 			path = AFORouter;
 			sourceTree = "<group>";
 		};
@@ -459,7 +458,6 @@
 				35A303257DD20305022AFE3EEBB17670 /* Support Files */,
 				9285E53A4EB69A34990682F1F55D20DC /* weak */,
 			);
-			name = AFOFoundation;
 			path = AFOFoundation;
 			sourceTree = "<group>";
 		};
@@ -568,7 +566,6 @@
 				4CC289D04E60DE5AB4C30389291ECA61 /* AFOViews.h */,
 				3D0A96A765D174CC90456719DBB6F019 /* Support Files */,
 			);
-			name = AFOViews;
 			path = AFOViews;
 			sourceTree = "<group>";
 		};
@@ -673,7 +670,6 @@
 				622B2611C033C88A79C0B53532627260 /* Support Files */,
 				FEFD89910B8C7241997B731BF34C8238 /* UIScrollView */,
 			);
-			name = AFOGitHub;
 			path = AFOGitHub;
 			sourceTree = "<group>";
 		};
@@ -917,6 +913,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = E22FB27246FBC89DD025867673038742 /* Products */;
@@ -1137,8 +1134,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

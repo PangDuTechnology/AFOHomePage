@@ -38,10 +38,9 @@
     }
     return _defaultLayout;
 }
-//[NSBundle imageNameFromBundle:@"AFOHomePage.bundle" source:@"hp_homePageBack.jpg"]
 - (UIImageView *)backImageView{
     if (!_backImageView) {
-        _backImageView = [[UIImageView alloc] initWithImage:[UIImage imageWithContentsOfFile:[AFOHPBundle bundleName:@"AFOHomePage" podName:@"AFOHomePage" resource:@"hp_homePageBack" type:@"jpg"]]];
+        _backImageView = [[UIImageView alloc] initWithImage:[AFOHPBundle imageNamedFromBundle:@"hp_homePageBack" type:@"jpg"]];
         [_backImageView setContentScaleFactor:[[UIScreen mainScreen] scale]];
         _backImageView.contentMode =  UIViewContentModeScaleAspectFill;
     }

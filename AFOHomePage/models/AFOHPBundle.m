@@ -17,4 +17,17 @@
     NSString *path = [home pathForResource:resource ofType:type];
     return path;
 }
++ (UIImage *)imageNamedFromBundle:(NSString *)name type:(NSString *)type{
+    
+    NSBundle *imageBundle = [self homePageBundle];
+    NSString *imagePath = [imageBundle pathForResource:name ofType:type];
+    UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+    return image;
+}
++ (NSBundle *)homePageBundle {
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSURL *url = [bundle URLForResource:@"AFOHomePage" withExtension:@"bundle"];
+    bundle = [NSBundle bundleWithURL:url];
+    return bundle;
+}
 @end

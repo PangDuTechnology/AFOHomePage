@@ -89,7 +89,7 @@
 		24E9B142201F507300DE5673 /* AFOViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E9B143201F507300DE5673 /* AFOViews.framework */; };
 		722B8EE6233B03B8005465C1 /* AFOHPBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 722B8EE4233B03B8005465C1 /* AFOHPBundle.h */; };
 		722B8EE7233B03B8005465C1 /* AFOHPBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 722B8EE5233B03B8005465C1 /* AFOHPBundle.m */; };
-		724DA8F0233A50D6001685B5 /* AFOHomePage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 724DA8EF233A50D6001685B5 /* AFOHomePage.bundle */; };
+		722B8F9C233B231B005465C1 /* AFOHomePage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 722B8F9B233B231B005465C1 /* AFOHomePage.bundle */; };
 		9F86CDCDA00D7F7694A00454 /* libPods-AFOHomePage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB54A6C99FA541D6CBC65201 /* libPods-AFOHomePage.a */; };
 /* End PBXBuildFile section */
 
@@ -191,7 +191,7 @@
 		6B73713A8988F34B99F1B37D /* Pods-AFOHomePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOHomePage.release.xcconfig"; path = "Target Support Files/Pods-AFOHomePage/Pods-AFOHomePage.release.xcconfig"; sourceTree = "<group>"; };
 		722B8EE4233B03B8005465C1 /* AFOHPBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOHPBundle.h; sourceTree = "<group>"; };
 		722B8EE5233B03B8005465C1 /* AFOHPBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOHPBundle.m; sourceTree = "<group>"; };
-		724DA8EF233A50D6001685B5 /* AFOHomePage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AFOHomePage.bundle; path = AFOHomePage/AFOHomePage.bundle; sourceTree = SOURCE_ROOT; };
+		722B8F9B233B231B005465C1 /* AFOHomePage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AFOHomePage.bundle; sourceTree = "<group>"; };
 		DB54A6C99FA541D6CBC65201 /* libPods-AFOHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFOHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -232,13 +232,13 @@
 		240BAB211FE1218800D58435 /* AFOHomePage */ = {
 			isa = PBXGroup;
 			children = (
+				722B8F9B233B231B005465C1 /* AFOHomePage.bundle */,
 				240BAB221FE1218800D58435 /* AFOHomePage.h */,
 				245923BB1FE1371F0094C3E0 /* AFOHPForeign.h */,
 				245923BC1FE1371F0094C3E0 /* AFOHPForeign.m */,
 				724DA8F3233A5433001685B5 /* models */,
 				724DA8F4233A5689001685B5 /* views */,
 				724DA905233A5A85001685B5 /* presenter */,
-				724DA8EF233A50D6001685B5 /* AFOHomePage.bundle */,
 			);
 			path = AFOHomePage;
 			sourceTree = "<group>";
@@ -592,7 +592,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				724DA8F0233A50D6001685B5 /* AFOHomePage.bundle in Resources */,
+				722B8F9C233B231B005465C1 /* AFOHomePage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
