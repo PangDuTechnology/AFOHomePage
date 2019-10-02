@@ -62,8 +62,8 @@
     [AFOHPDetailModel songsDetails:model block:^(NSDictionary *dictionary) {
         NSMutableDictionary *dic = [[NSMutableDictionary alloc] initWithDictionary:dictionary];
         [dic setObject:@"homePage" forKey:@"modelName"];
-        [dic setObject:@"AFOHPVedioController"  forKey:@"current"];
-        [dic setObject:@"AFOHPDetailController" forKey:@"next"];
+        [dic setObject:@"AFOHPDetailController"  forKey:@"current"];
+        [dic setObject:@"AFOHPVedioController" forKey:@"next"];
         [dic setObject:@"push" forKey:@"action"];
 //        NSString *strBase = [[AFORouterManager shareInstance] settingPushControllerRouter:@"AFOHPVedioController" present:@"AFOHPDetailController" params:dictionary];
         baseUrl = [NSURL URLWithString:[NSString settingRoutesParameters:dic]];
