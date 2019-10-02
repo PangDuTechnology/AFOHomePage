@@ -86,7 +86,7 @@
     }
     return [NSURL URLWithString:[NSString settingRoutesParameters:@{
                                                                     @"modelName" : @"homePage",
-                                                                    @"current" : NSStringFromClass([self class]),
+                                                                    @"current" : @"AFOHPListController",
                                                                     @"next" : @"AFOHPDetailController",
                                                                     @"action" :@"push",
                                                                     @"value" : string,
