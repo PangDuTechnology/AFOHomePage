@@ -9,6 +9,7 @@
 #import "AFOCardPresenterBusiness.h"
 #import <AFOGitHub/AFOGitHub.h>
 #import <AFORouter/AFORouter.h>
+#import <AFOFoundation/AFOFoundation.h>
 #import "AFOCardStackingModel.h"
 #import "AFOCardStackCollectionDelegate.h"
 #import "AFOCardStackCollectionDataSource.h"
@@ -33,10 +34,19 @@
         if (indexPath.row == 3) {
             strController = @"AFOHPDetailController";
         }
+        NSMutableDictionary *dic = [[NSMutableDictionary alloc] initWithDictionary:[self.stackingModel dictionaryIndex:indexPath.row]];
+        [dic setObject:@"modelName" forKey:@"homePage"];
+        [dic setObject:@"current" forKey:strController];
+        [dic setObject:@"next" forKey:@"AFOCardStackingController"];
+        [dic setObject:@"action" forKey:@"push"];
         ///------
-        NSString *baseStr = [[AFORouterManager shareInstance] settingPushControllerRouter:strController present:@"AFOCardStackingController" params:[self.stackingModel dictionaryIndex:indexPath.row]];
-        NSURL *url = [NSURL URLWithString:baseStr];
-        [[UIApplication sharedApplication] openURL:url];
+//        NSString *baseStr = [[AFORouterManager shareInstance] settingPushControllerRouter:strController present:@"AFOCardStackingController" params:[self.stackingModel dictionaryIndex:indexPath.row]];
+//        NSURL *url = [NSURL URLWithString:[NSString settingRoutesParameters:@{
+//                                                                              @"modelName" : @"homePage",
+//                                                                              @"current": @"",
+//                                                                              @"" : @""
+//                                                                              }]];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString settingRoutesParameters:dic]]];
     } error:NULL];
 }
 #pragma mark ------ UICollectionViewDelegate

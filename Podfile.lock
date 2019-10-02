@@ -38,12 +38,16 @@ PODS:
     - AFOFoundation
     - AFORouter/router
   - AFORouter/router (0.0.6)
+  - AFOUIKIT (0.0.7):
+    - AFOUIKIT/viewController (= 0.0.7)
+  - AFOUIKIT/viewController (0.0.7)
   - AFOViews (0.0.2)
 
 DEPENDENCIES:
   - AFOFoundation (from `/Users/xianxueguang/Documents/GitHub/AFOFoundation`)
   - AFOGitHub
   - AFORouter (from `/Users/xianxueguang/Documents/GitHub/AFORouter`)
+  - AFOUIKIT (from `/Users/xianxueguang/Documents/GitHub/AFOUIKIT`)
   - AFOViews
 
 SPEC REPOS:
@@ -56,6 +60,8 @@ EXTERNAL SOURCES:
     :git: "/Users/xianxueguang/Documents/GitHub/AFOFoundation"
   AFORouter:
     :git: "/Users/xianxueguang/Documents/GitHub/AFORouter"
+  AFOUIKIT:
+    :git: "/Users/xianxueguang/Documents/GitHub/AFOUIKIT"
 
 CHECKOUT OPTIONS:
   AFOFoundation:
@@ -64,13 +70,17 @@ CHECKOUT OPTIONS:
   AFORouter:
     :commit: d85febcd38122b4704553e5f82f2cf277c045438
     :git: "/Users/xianxueguang/Documents/GitHub/AFORouter"
+  AFOUIKIT:
+    :commit: 63c9740e4d1c97868c8a354c1ac5d928ca24c9f9
+    :git: "/Users/xianxueguang/Documents/GitHub/AFOUIKIT"
 
 SPEC CHECKSUMS:
   AFOFoundation: 3908d8d762ce86095d411062b3f23897c848b63e
   AFOGitHub: 9b4aee6e56e6d3215ff93e879575649a01e19af4
   AFORouter: 55453f046221d0750f38f55eb47e3eeb6739fa47
+  AFOUIKIT: b1e12d14891b02f23c5dd3808db57ee6873e5c15
   AFOViews: e163b3141ed826d28d47c2a47cdbc51d0c399a54
 
-PODFILE CHECKSUM: 62620e6f1d336c61b1407bedaa917e50e90965bf
+PODFILE CHECKSUM: 3186a7f05cfbe87c35a30ccaca745f4f18a151a6
 
 COCOAPODS: 1.8.0
