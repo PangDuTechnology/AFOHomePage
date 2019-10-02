@@ -36,16 +36,9 @@
         }
         NSMutableDictionary *dic = [[NSMutableDictionary alloc] initWithDictionary:[self.stackingModel dictionaryIndex:indexPath.row]];
         [dic setObject:@"homePage" forKey:@"modelName"];
-        [dic setObject:strController forKey:@"current"];
-        [dic setObject:@"AFOCardStackingController" forKey:@"next"];
-        [dic setObject:@"push" forKey:@"action"]; 
-        ///------
-//        NSString *baseStr = [[AFORouterManager shareInstance] settingPushControllerRouter:strController present:@"AFOCardStackingController" params:[self.stackingModel dictionaryIndex:indexPath.row]];
-//        NSURL *url = [NSURL URLWithString:[NSString settingRoutesParameters:@{
-//                                                                              @"modelName" : @"homePage",
-//                                                                              @"current": @"",
-//                                                                              @"" : @""
-//                                                                              }]];
+        [dic setObject:@"AFOCardStackingController" forKey:@"current"];
+        [dic setObject:strController forKey:@"next"];
+        [dic setObject:@"push" forKey:@"action"];
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString settingRoutesParameters:dic]]];
     } error:NULL];
 }
