@@ -81,7 +81,7 @@
     }else if(self.type == 2){
         string = [self albumTitleNameIndex:indexPath.row];
     }else if(self.type == 0){
-        string = [self albumTitleNameIndex:indexPath.row];
+        string = [self artistsNameIndex:indexPath.row];
     }
     if (string == nil || string.length < 1) {
         return nil;
