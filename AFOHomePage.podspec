@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFOHomePage"
-  s.version      = "0.0.19"
+  s.version      = "0.0.20"
   s.summary      = "main view."
 
   # This description is used to generate tags and improve search results.
-  s.description  = 'Use soft decode to decode video.'
+  s.description  = 'The application system API plays iTunes and saves music.'
   s.homepage     = "https://github.com/PangDuTechnology/AFOHomePage.git"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

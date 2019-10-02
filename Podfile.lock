@@ -1,19 +1,19 @@
 PODS:
-  - AFOFoundation (1.0.7):
-    - AFOFoundation/array (= 1.0.7)
-    - AFOFoundation/bundle (= 1.0.7)
-    - AFOFoundation/define (= 1.0.7)
-    - AFOFoundation/dictionary (= 1.0.7)
-    - AFOFoundation/sandbox (= 1.0.7)
-    - AFOFoundation/string (= 1.0.7)
-    - AFOFoundation/weak (= 1.0.7)
-  - AFOFoundation/array (1.0.7)
-  - AFOFoundation/bundle (1.0.7)
-  - AFOFoundation/define (1.0.7)
-  - AFOFoundation/dictionary (1.0.7)
-  - AFOFoundation/sandbox (1.0.7)
-  - AFOFoundation/string (1.0.7)
-  - AFOFoundation/weak (1.0.7)
+  - AFOFoundation (1.0.8):
+    - AFOFoundation/array (= 1.0.8)
+    - AFOFoundation/bundle (= 1.0.8)
+    - AFOFoundation/define (= 1.0.8)
+    - AFOFoundation/dictionary (= 1.0.8)
+    - AFOFoundation/sandbox (= 1.0.8)
+    - AFOFoundation/string (= 1.0.8)
+    - AFOFoundation/weak (= 1.0.8)
+  - AFOFoundation/array (1.0.8)
+  - AFOFoundation/bundle (1.0.8)
+  - AFOFoundation/define (1.0.8)
+  - AFOFoundation/dictionary (1.0.8)
+  - AFOFoundation/sandbox (1.0.8)
+  - AFOFoundation/string (1.0.8)
+  - AFOFoundation/weak (1.0.8)
   - AFOGitHub (0.0.10):
     - AFOGitHub/Aspects (= 0.0.10)
     - AFOGitHub/GCDMulticastDelegate (= 0.0.10)
@@ -31,28 +31,46 @@ PODS:
   - AFOGitHub/SDWebImage/include (0.0.10)
   - AFOGitHub/SDWebImage/lib (0.0.10)
   - AFOGitHub/UIScrollView (0.0.10)
-  - AFORouter (0.0.4)
+  - AFORouter (0.0.6):
+    - AFORouter/manager (= 0.0.6)
+    - AFORouter/router (= 0.0.6)
+  - AFORouter/manager (0.0.6):
+    - AFOFoundation
+    - AFORouter/router
+  - AFORouter/router (0.0.6)
   - AFOViews (0.0.2)
 
 DEPENDENCIES:
-  - AFOFoundation
+  - AFOFoundation (from `/Users/xianxueguang/Documents/GitHub/AFOFoundation`)
   - AFOGitHub
-  - AFORouter
+  - AFORouter (from `/Users/xianxueguang/Documents/GitHub/AFORouter`)
   - AFOViews
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - AFOFoundation
+  trunk:
     - AFOGitHub
-    - AFORouter
     - AFOViews
 
+EXTERNAL SOURCES:
+  AFOFoundation:
+    :git: "/Users/xianxueguang/Documents/GitHub/AFOFoundation"
+  AFORouter:
+    :git: "/Users/xianxueguang/Documents/GitHub/AFORouter"
+
+CHECKOUT OPTIONS:
+  AFOFoundation:
+    :commit: 0e0e903002c8c86c2622bb07ad289afa466a72ba
+    :git: "/Users/xianxueguang/Documents/GitHub/AFOFoundation"
+  AFORouter:
+    :commit: d85febcd38122b4704553e5f82f2cf277c045438
+    :git: "/Users/xianxueguang/Documents/GitHub/AFORouter"
+
 SPEC CHECKSUMS:
-  AFOFoundation: 984bbc3d77ca72b5fa604b879065a12c108567fb
+  AFOFoundation: 3908d8d762ce86095d411062b3f23897c848b63e
   AFOGitHub: 9b4aee6e56e6d3215ff93e879575649a01e19af4
-  AFORouter: dc40925d83908af499af28b9c988efb56ea28f89
+  AFORouter: 55453f046221d0750f38f55eb47e3eeb6739fa47
   AFOViews: e163b3141ed826d28d47c2a47cdbc51d0c399a54
 
-PODFILE CHECKSUM: a473a60c085f9c760e0dc8249565105f4379e0bd
+PODFILE CHECKSUM: 62620e6f1d336c61b1407bedaa917e50e90965bf
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.0
