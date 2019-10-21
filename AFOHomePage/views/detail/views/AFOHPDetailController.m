@@ -23,7 +23,7 @@
     [self.presenterView bindingTableView];
 }
 #pragma mark ------ AFORouterManagerDelegate
-- (void)didReceiverRouterManagerDelegate:(id)model{
+- (void)schedulerReceiverRouterManagerDelegate:(id)model{
     WeakObject(self);
     [self.business receiverRouterMessage:model block:^(NSString * _Nonnull title, NSInteger index, NSArray * _Nonnull array) {
         StrongObject(self);
@@ -39,7 +39,7 @@
     [self.view addSubview:tableView];
 }
 #pragma mark ------ 传值
-- (id)didSenderRouterManagerDelegate{
+- (id)schedulerSenderRouterManagerDelegate{
     NSDictionary *dictonary = @{
                                 @"index" : self.business.number,
                                 @"data"  : self.business.dataArray
