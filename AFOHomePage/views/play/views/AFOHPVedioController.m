@@ -11,7 +11,7 @@
 #import <AFOFoundation/AFOFoundation.h>
 #import "AFOHPPlayPresenterView.h"
 #import "AFOHPPlayPresenterBusiness.h"
-@interface AFOHPVedioController ()<AFORouterManagerDelegate,AFOHPPresenterDelegate,AFOHPPlayPresenterViewDelegate,AFOHPPlayPresenterBusinessDelegate>
+@interface AFOHPVedioController ()<AFOHPPresenterDelegate,AFOHPPlayPresenterViewDelegate,AFOHPPlayPresenterBusinessDelegate>
 @property (nonatomic, strong) AFOHPPlayPresenterView     *presenterView;
 @property (nonatomic, strong) AFOHPPlayPresenterBusiness *pressenterBusiness;
 @end

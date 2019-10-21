@@ -9,9 +9,10 @@
 #import "AFOHPDetailController.h"
 #import <AFORouter/AFORouter.h>
 #import <AFOFoundation/AFOFoundation.h>
+#import <AFOSchedulerCore/AFOSchedulerPassValueDelegate.h>
 #import "AFODetailPresenterView.h"
 #import "AFODetailPresenterBusiness.h"
-@interface AFOHPDetailController ()<AFORouterManagerDelegate,AFOHPPresenterDelegate>
+@interface AFOHPDetailController ()<AFOSchedulerPassValueDelegate,AFOHPPresenterDelegate>
 @property (nonatomic, strong) AFODetailPresenterView  *presenterView;
 @property (nonatomic, strong) AFODetailPresenterBusiness *business;
 @end

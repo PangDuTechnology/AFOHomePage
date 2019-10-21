@@ -42,7 +42,13 @@ PODS:
   - AFORouter/router (0.0.8):
     - AFOSchedulerCore
   - AFOSchedulerCore (0.0.1):
+    - AFOSchedulerCore/homePage (= 0.0.1)
+    - AFOSchedulerCore/playList (= 0.0.1)
+    - AFOSchedulerCore/rooter (= 0.0.1)
     - AFOSchedulerCore/scheduler (= 0.0.1)
+  - AFOSchedulerCore/homePage (0.0.1)
+  - AFOSchedulerCore/playList (0.0.1)
+  - AFOSchedulerCore/rooter (0.0.1)
   - AFOSchedulerCore/scheduler (0.0.1)
   - AFOUIKIT (0.0.7):
     - AFOUIKIT/viewController (= 0.0.7)
@@ -53,6 +59,7 @@ DEPENDENCIES:
   - AFOFoundation
   - AFOGitHub
   - AFORouter (from `/Users/piccolo/Documents/GitHub/AFORouter`)
+  - AFOSchedulerCore (from `/Users/piccolo/Documents/GitHub/AFOSchedulerCore`)
   - AFOUIKIT
   - AFOViews
 
@@ -60,27 +67,31 @@ SPEC REPOS:
   trunk:
     - AFOFoundation
     - AFOGitHub
-    - AFOSchedulerCore
     - AFOUIKIT
     - AFOViews
 
 EXTERNAL SOURCES:
   AFORouter:
     :git: "/Users/piccolo/Documents/GitHub/AFORouter"
+  AFOSchedulerCore:
+    :git: "/Users/piccolo/Documents/GitHub/AFOSchedulerCore"
 
 CHECKOUT OPTIONS:
   AFORouter:
-    :commit: 6888e2416e455e38dab3b5842a8d864d3dabf97a
+    :commit: 68df70eab6943e4cdc10752f4ae12d0735375258
     :git: "/Users/piccolo/Documents/GitHub/AFORouter"
+  AFOSchedulerCore:
+    :commit: eca43f2842cc9144a3acf37d9529e02a1f661841
+    :git: "/Users/piccolo/Documents/GitHub/AFOSchedulerCore"
 
 SPEC CHECKSUMS:
   AFOFoundation: b5953521aa5c436dba3d2e77d56b5614289476ab
   AFOGitHub: 9b4aee6e56e6d3215ff93e879575649a01e19af4
   AFORouter: ce325a989fded002cfcbb6a60ea864abcfca0aa9
-  AFOSchedulerCore: 0e4cdd5bdadfb2ae323ccc4cf9b205757b34d540
+  AFOSchedulerCore: e67576eb67f1e252498368ff4f84844736f5af15
   AFOUIKIT: b1e12d14891b02f23c5dd3808db57ee6873e5c15
   AFOViews: e163b3141ed826d28d47c2a47cdbc51d0c399a54
 
-PODFILE CHECKSUM: d6e1a06059b8f4741b23ea8653ffc7b99b5b6280
+PODFILE CHECKSUM: be4a260ea0446b75ac3a39e10466055ed680e09f
 
 COCOAPODS: 1.8.3
