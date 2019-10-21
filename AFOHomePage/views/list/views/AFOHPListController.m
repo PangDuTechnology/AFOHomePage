@@ -24,7 +24,7 @@
     [self.presenterView bindingTableView];
 }
 #pragma mark ------ AFORouterManagerDelegate
-- (void)didReceiverRouterManagerDelegate:(id)model{
+- (void)schedulerReceiverRouterManagerDelegate:(id)model{
     WeakObject(self);
     [self.presenterBusiness receiverRouterMessage:model block:^(NSString * _Nonnull title, NSInteger index,NSArray *_Nonnull array) {
         StrongObject(self);
