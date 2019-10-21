@@ -108,5 +108,6 @@ Pod::Spec.new do |s|
   s.dependency  "AFOViews"
   s.dependency  "AFOGitHub"
   s.dependency  "AFOFoundation"
+  s.dependency  "AFOSchedulerCore"
   s.dependency  "AFORouter"
 end

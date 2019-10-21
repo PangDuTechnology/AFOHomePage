@@ -3,7 +3,8 @@ inhibit_all_warnings!
 target 'AFOHomePage' do
   pod 'AFOUIKIT'
   pod 'AFOFoundation'
-  pod 'AFORouter'
+  pod 'AFOSchedulerCore', :git => '/Users/piccolo/Documents/GitHub/AFOSchedulerCore'
+  pod 'AFORouter', :git => '/Users/piccolo/Documents/GitHub/AFORouter'
   pod 'AFOViews'
   pod 'AFOGitHub'
 end

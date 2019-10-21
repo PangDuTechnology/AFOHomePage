@@ -1,19 +1,19 @@
 PODS:
-  - AFOFoundation (1.0.8):
-    - AFOFoundation/array (= 1.0.8)
-    - AFOFoundation/bundle (= 1.0.8)
-    - AFOFoundation/define (= 1.0.8)
-    - AFOFoundation/dictionary (= 1.0.8)
-    - AFOFoundation/sandbox (= 1.0.8)
-    - AFOFoundation/string (= 1.0.8)
-    - AFOFoundation/weak (= 1.0.8)
-  - AFOFoundation/array (1.0.8)
-  - AFOFoundation/bundle (1.0.8)
-  - AFOFoundation/define (1.0.8)
-  - AFOFoundation/dictionary (1.0.8)
-  - AFOFoundation/sandbox (1.0.8)
-  - AFOFoundation/string (1.0.8)
-  - AFOFoundation/weak (1.0.8)
+  - AFOFoundation (1.0.9):
+    - AFOFoundation/array (= 1.0.9)
+    - AFOFoundation/bundle (= 1.0.9)
+    - AFOFoundation/define (= 1.0.9)
+    - AFOFoundation/dictionary (= 1.0.9)
+    - AFOFoundation/sandbox (= 1.0.9)
+    - AFOFoundation/string (= 1.0.9)
+    - AFOFoundation/weak (= 1.0.9)
+  - AFOFoundation/array (1.0.9)
+  - AFOFoundation/bundle (1.0.9)
+  - AFOFoundation/define (1.0.9)
+  - AFOFoundation/dictionary (1.0.9)
+  - AFOFoundation/sandbox (1.0.9)
+  - AFOFoundation/string (1.0.9)
+  - AFOFoundation/weak (1.0.9)
   - AFOGitHub (0.0.10):
     - AFOGitHub/Aspects (= 0.0.10)
     - AFOGitHub/GCDMulticastDelegate (= 0.0.10)
@@ -31,56 +31,56 @@ PODS:
   - AFOGitHub/SDWebImage/include (0.0.10)
   - AFOGitHub/SDWebImage/lib (0.0.10)
   - AFOGitHub/UIScrollView (0.0.10)
-  - AFORouter (0.0.6):
-    - AFORouter/manager (= 0.0.6)
-    - AFORouter/router (= 0.0.6)
-  - AFORouter/manager (0.0.6):
+  - AFORouter (0.0.8):
+    - AFORouter/manager (= 0.0.8)
+    - AFORouter/router (= 0.0.8)
+    - AFOSchedulerCore
+  - AFORouter/manager (0.0.8):
     - AFOFoundation
     - AFORouter/router
-  - AFORouter/router (0.0.6)
+    - AFOSchedulerCore
+  - AFORouter/router (0.0.8):
+    - AFOSchedulerCore
+  - AFOSchedulerCore (0.0.1):
+    - AFOSchedulerCore/scheduler (= 0.0.1)
+  - AFOSchedulerCore/scheduler (0.0.1)
   - AFOUIKIT (0.0.7):
     - AFOUIKIT/viewController (= 0.0.7)
   - AFOUIKIT/viewController (0.0.7)
   - AFOViews (0.0.2)
 
 DEPENDENCIES:
-  - AFOFoundation (from `/Users/xianxueguang/Documents/GitHub/AFOFoundation`)
+  - AFOFoundation
   - AFOGitHub
-  - AFORouter (from `/Users/xianxueguang/Documents/GitHub/AFORouter`)
-  - AFOUIKIT (from `/Users/xianxueguang/Documents/GitHub/AFOUIKIT`)
+  - AFORouter (from `/Users/piccolo/Documents/GitHub/AFORouter`)
+  - AFOUIKIT
   - AFOViews
 
 SPEC REPOS:
   trunk:
+    - AFOFoundation
     - AFOGitHub
+    - AFOSchedulerCore
+    - AFOUIKIT
     - AFOViews
 
 EXTERNAL SOURCES:
-  AFOFoundation:
-    :git: "/Users/xianxueguang/Documents/GitHub/AFOFoundation"
   AFORouter:
-    :git: "/Users/xianxueguang/Documents/GitHub/AFORouter"
-  AFOUIKIT:
-    :git: "/Users/xianxueguang/Documents/GitHub/AFOUIKIT"
+    :git: "/Users/piccolo/Documents/GitHub/AFORouter"
 
 CHECKOUT OPTIONS:
-  AFOFoundation:
-    :commit: 0e0e903002c8c86c2622bb07ad289afa466a72ba
-    :git: "/Users/xianxueguang/Documents/GitHub/AFOFoundation"
   AFORouter:
-    :commit: d85febcd38122b4704553e5f82f2cf277c045438
-    :git: "/Users/xianxueguang/Documents/GitHub/AFORouter"
-  AFOUIKIT:
-    :commit: 63c9740e4d1c97868c8a354c1ac5d928ca24c9f9
-    :git: "/Users/xianxueguang/Documents/GitHub/AFOUIKIT"
+    :commit: 6888e2416e455e38dab3b5842a8d864d3dabf97a
+    :git: "/Users/piccolo/Documents/GitHub/AFORouter"
 
 SPEC CHECKSUMS:
-  AFOFoundation: 3908d8d762ce86095d411062b3f23897c848b63e
+  AFOFoundation: b5953521aa5c436dba3d2e77d56b5614289476ab
   AFOGitHub: 9b4aee6e56e6d3215ff93e879575649a01e19af4
-  AFORouter: 55453f046221d0750f38f55eb47e3eeb6739fa47
+  AFORouter: ce325a989fded002cfcbb6a60ea864abcfca0aa9
+  AFOSchedulerCore: 0e4cdd5bdadfb2ae323ccc4cf9b205757b34d540
   AFOUIKIT: b1e12d14891b02f23c5dd3808db57ee6873e5c15
   AFOViews: e163b3141ed826d28d47c2a47cdbc51d0c399a54
 
-PODFILE CHECKSUM: 3186a7f05cfbe87c35a30ccaca745f4f18a151a6
+PODFILE CHECKSUM: d6e1a06059b8f4741b23ea8653ffc7b99b5b6280
 
-COCOAPODS: 1.8.0
+COCOAPODS: 1.8.3
