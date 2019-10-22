@@ -16,6 +16,7 @@
 #pragma mark ------ viewDidLoad
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tabBarItem.title = @"首页";
     self.title = @"首页";
     [self.presenterView bindingCardStacking];
 }
