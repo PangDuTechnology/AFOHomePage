@@ -804,6 +804,16 @@
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFOFoundation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFOGitHub\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFORouter\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFOSchedulerCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFOUIKIT\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFOViews\"",
+					"\"${PODS_ROOT}/AFOGitHub/AFOGitHub/SDWebImage/lib\"",
+				);
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -836,6 +846,16 @@
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFOFoundation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFOGitHub\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFORouter\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFOSchedulerCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFOUIKIT\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFOViews\"",
+					"\"${PODS_ROOT}/AFOGitHub/AFOGitHub/SDWebImage/lib\"",
+				);
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-ObjC",
